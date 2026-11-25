@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QA Engineer | 박준영</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome 아이콘 라이브러리 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- =========================
+             Sidebar
+        ========================== -->
+        <aside class="sidebar" id="sidebar">
+
+            <div class="logo">
+                <span class="logo-mark">QA</span>
+
+                <div class="logo-text">
+                    <strong>박준영</strong>
+                    <span>QA ENGINEER</span>
+                </div>
+            </div>
+
+            <nav class="nav" aria-label="포트폴리오 메뉴">
+
+                <p class="nav-title">MAIN</p>
+
+                <a href="#" class="nav-item active" data-page="dashboard">
+                    <span class="icon">⌂</span>
+                    Overview
+                </a>
+
+                <a href="#" class="nav-item" data-page="profile">
+                    <span class="icon">○</span>
+                    Profile
+                </a>
+
+                <a href="#" class="nav-item" data-page="career">
+                    <span class="icon">▣</span>
+                    Career
+                </a>
+
+                <p class="nav-title">QA</p>
+
+                <a href="#" class="nav-item" data-page="testcases">
+                    <span class="icon">✓</span>
+                    Test Cases
+                </a>
+
+                <a href="#" class="nav-item" data-page="defects">
+                    <span class="icon">!</span>
+                    Defects
+                </a>
+
+                <a href="#" class="nav-item" data-page="automation">
+                    <span class="icon">⌘</span>
+                    Automation
+                </a>
+
+                <p class="nav-title">OTHER</p>
+
+                <a href="#" class="nav-item" data-page="contact">
+                    <span class="icon">✉</span>
+                    Contact
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- =========================
+             Main
+        ========================== -->
+        <main class="main">
+
+            <!-- Header -->
+            <header class="header">
+
+                <button class="mobile-menu" id="mobileMenu" type="button" aria-label="메뉴 열기" aria-controls="sidebar" aria-expanded="false">
+                    ☰
+                </button>
+
+                <div class="breadcrumb">
+                    QA Portfolio
+                </div>
+
+                <div class="header-right">
+
+                    <a href="https://github.com/junyoung96krap" class="header-link" target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </header>
+
+
+            <!-- Content -->
+            <section class="content" id="content">
+
+                <!-- =========================
+                     Hero
+                ========================== -->
+                <section class="hero">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            QA ENGINEER
+                        </span>
+
+                        <h1>
+                            박준영
+                        </h1>
+
+                        <p class="hero-description">
+                            요구사항 분석부터 Test Case 설계, 기능 테스트, 통합 테스트, 이슈 관리, 릴리즈 검증까지 QA 전 과정을 수행한 QA Engineer입니다.
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     Statistics
+                ========================== -->
+                <section class="stats">
+
+                    <div class="stat-card">
+
+                        <div class="stat-label">
+                            EXPERIENCE
+                        </div>
+
+                        <div class="stat-value">
+                            5<span>+</span>
+                        </div>
+
+                        <div class="stat-description">
+                            QA 경력
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-label">
+                            TEST CASE
+                        </div>
+
+                        <div class="stat-value">
+                            5,000<span>+</span>
+                        </div>
+
+                        <div class="stat-description">
+                            TC 설계 및 수행
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-label">
+                            DEFECT
+                        </div>
+
+                        <div class="stat-value">
+                            1,000<span>+</span>
+                        </div>
+
+                        <div class="stat-description">
+                            등록 결함 및 관리
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     Projects
+                ========================== -->
+                <section class="section">
+
+                    <div class="section-header">
+
+                        <div>
+                            <span class="section-label">
+                                PROJECTS
+                            </span>
+
+                            <h2>
+                                Project Experience
+                            </h2>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-grid">
+
+                        <!-- Project 1 -->
+                        <article class="project-card" data-project="cluster">
+
+                            <div class="project-top">
+
+                                <span class="project-type">
+                                    AUTOMOTIVE EMBEDDED QA
+                                </span>
+
+                                <span class="project-number">
+                                    01
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                Hyundai Cluster
+                            </h3>
+
+                            <p>
+                                Cluster setup 단계에서 테스트 환경 구축 및 품질 검증
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Cluster</span>
+                                <span>CANoe</span>
+                                <span>Jira</span>
+                            </div>
+
+                            <div class="project-footer">
+                                <span>회사 : 인피닉</span>
+                                <a href="#" class="project-more" data-project="cluster"> 상세보기 →</a>
+                            </div>
+
+                        </article>
+
+
+                        <!-- Project 2 -->
+                        <article class="project-card" data-project="volkswagen">
+
+                            <div class="project-top">
+
+                                <span class="project-type">
+                                    AUTOMOTIVE EMBEDDED QA
+                                </span>
+
+                                <span class="project-number">
+                                    02
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                Volkswagen Cluster
+                            </h3>
+
+                            <p>
+                                Cluster setup 단계에서
+                                테스트 환경 구축 및 품질 검증
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Cluster</span>
+                                <span>CANoe</span>
+                                <span>Jira</span>
+                            </div>
+
+                            <div class="project-footer">
+                                <span>회사 : 큐앤피플</span>
+                                <a href="#" class="project-more" data-project="volkswagen"> 상세보기 →</a>
+                            </div>
+
+                        </article>
+
+
+                        <!-- Project 3 -->
+                        <article class="project-card" data-project="avn">
+
+                            <div class="project-top">
+
+                                <span class="project-type">
+                                    AUTOMOTIVE EMBEDDED QA
+                                </span>
+
+                                <span class="project-number">
+                                    03
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                Hyundai AVN
+                            </h3>
+
+                            <p>
+                                AVN Setup 단계에서 
+                                테스트 환경 구축 및 품질 검증
+                            </p>
+
+                            <div class="project-tags">
+                                <span>LG AI Tool</span>
+                                <span>Jira</span>
+                                <span>AVN</span>
+                            </div>
+
+                            <div class="project-footer">
+                                <span>회사 : 큐앤피플</span>
+                                <a href="#" class="project-more" data-project="avn"> 상세보기 →</a>
+                            </div>
+
+                        </article>
+
+                        <!-- Project 4 -->
+                        <article class="project-card" data-project="saucedemo">
+
+                            <div class="project-top">
+
+                                <span class="project-type">
+                                    WEB QA · 개인 프로젝트
+                                </span>
+
+                                <span class="project-number">
+                                    04
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                SauceDemo <span class="web-qa">(Web QA Automation)</span>
+                            </h3>
+
+                            <p>
+                                로그인, 상품 정렬, 장바구니 등 핵심 사용자 시나리오를 설계하고, Selenium을 활용해 정상 및 예외 상황을 자동화 검증
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Selenium</span>
+                                <span>VS Code</span>
+                            </div>
+
+                            <div class="project-footer">
+                                <a href="#" class="project-more" data-project="saucedemo"> 상세보기 →</a>
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     QA Process
+                ========================== -->
+                <section class="section">
+
+                    <div class="section-header">
+
+                        <div>
+                            <span class="section-label">
+                                QA PROCESS
+                            </span>
+
+                            <h2>
+                                How I Work
+                            </h2>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process">
+
+                        <div class="process-item">
+                            <span class="process-number">01</span>
+                            <strong>Requirement</strong>
+                            <small>요구사항 분석</small>
+                        </div>
+
+                        <span class="process-arrow">→</span>
+
+                        <div class="process-item">
+                            <span class="process-number">02</span>
+                            <strong>Test Case</strong>
+                            <small>TC 설계</small>
+                        </div>
+
+                        <span class="process-arrow">→</span>
+
+                        <div class="process-item">
+                            <span class="process-number">03</span>
+                            <strong>Test</strong>
+                            <small>테스트 수행</small>
+                        </div>
+
+                        <span class="process-arrow">→</span>
+
+                        <div class="process-item">
+                            <span class="process-number">04</span>
+                            <strong>Defect</strong>
+                            <small>결함 관리</small>
+                        </div>
+
+                        <span class="process-arrow">→</span>
+
+                        <div class="process-item">
+                            <span class="process-number">05</span>
+                            <strong>Improve</strong>
+                            <small>프로세스 개선</small>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+
+            <!-- Footer -->
+            <footer class="footer">
+
+                <span>
+                    © 2026 Park Junyoung
+                </span>
+
+                <span>
+                    QA Engineer Portfolio
+                </span>
+
+            </footer>
+
+        </main>
+
+    </div>
+        <!-- =========================
+         Project Detail Modal
+    ========================== -->
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+
+        <!-- 모달 바깥 배경 -->
+        <div
+            class="project-modal-backdrop"
+            id="projectModalBackdrop"
+        ></div>
+
+        <!-- 모달 본문 -->
+        <div
+            class="project-modal-content"
+            role="dialog"
+            aria-modal="true"
+            tabindex="-1"
+            aria-labelledby="projectModalTitle"
+        >
+
+            <!-- 모달 헤더 -->
+            <div class="project-modal-header">
+
+                <div>
+                    <span class="project-modal-type" id="projectModalType">
+                        PROJECT DETAIL
+                    </span>
+
+                    <h2 id="projectModalTitle">
+                        Project Title
+                    </h2>
+                </div>
+
+                <!-- 닫기 버튼 -->
+                <button
+                    type="button"
+                    class="project-modal-close"
+                    id="projectModalClose"
+                    aria-label="프로젝트 상세 창 닫기"
+                >
+                    &times;
+                </button>
+
+            </div>
+
+            <!-- 프로젝트 상세 설명이 들어갈 영역 -->
+            <div class="project-modal-body" id="projectModalBody">
+                <!-- JavaScript에서 프로젝트별 내용을 표시할 예정 -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>
