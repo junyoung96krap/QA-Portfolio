@@ -28,7 +28,7 @@
 ## Deployment
 GitHub Pages를 통해 배포한 포트폴리오입니다.
 
-**Portfolio URL:** (배포 주소 입력)
+**Portfolio URL:** https://junyoung96krap.github.io/QA-Portfolio/
 
 ---
 © 2026 Park Junyoung. All Rights Reserved.
